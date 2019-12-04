@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     "linebreak-style": 0,
     "no-plusplus": "off",
-    "no-else-return": "off"
+    "no-else-return": "off",
+    "no-restricted-properties": "off"
   },
 };
