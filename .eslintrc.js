@@ -19,6 +19,10 @@ module.exports = {
     "linebreak-style": 0,
     "no-plusplus": "off",
     "no-else-return": "off",
-    "no-restricted-properties": "off"
+    "no-restricted-properties": "off",
+    "array-callback-return": "off",
+    "no-restricted-globals": "off",
+    "consistent-return": "off",
+    "no-param-reassign": "off"
   },
 };
