@@ -23,6 +23,9 @@ module.exports = {
     "array-callback-return": "off",
     "no-restricted-globals": "off",
     "consistent-return": "off",
-    "no-param-reassign": "off"
+    "no-param-reassign": "off",
+    "no-useless-concat": "off",
+    "no-useless-escape": "off",
+    "prefer-template": "off"
   },
 };
