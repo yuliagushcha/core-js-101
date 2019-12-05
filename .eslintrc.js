@@ -17,15 +17,15 @@ module.exports = {
   },
   rules: {
     "linebreak-style": 0,
-    "no-plusplus": "off",
-    "no-else-return": "off",
-    "no-restricted-properties": "off",
-    "array-callback-return": "off",
-    "no-restricted-globals": "off",
-    "consistent-return": "off",
-    "no-param-reassign": "off",
-    "no-useless-concat": "off",
-    "no-useless-escape": "off",
-    "prefer-template": "off"
+    // "no-plusplus": "off",
+    // "no-else-return": "off",
+    // "no-restricted-properties": "off",
+    // "array-callback-return": "off",
+    // "no-restricted-globals": "off",
+    // "consistent-return": "off",
+    // "no-param-reassign": "off",
+    // "no-useless-concat": "off",
+    // "no-useless-escape": "off",
+    // "prefer-template": "off"
   },
 };

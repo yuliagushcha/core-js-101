@@ -1,3 +1,7 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable consistent-return */
+/* eslint-disable no-restricted-globals */
+/* eslint-disable array-callback-return */
 /* ********************************************************************************************
  *                                                                                            *
  * Plese read the following tutorial before implementing tasks:                               *
@@ -221,6 +225,7 @@ function toCsvText(arr) {
  *   [ 10, 100, -1 ]      => [ 100, 10000, 1 ]
  */
 function toArrayOfSquares(arr) {
+  // eslint-disable-next-line no-restricted-properties
   return arr.map((i) => Math.pow(i, 2));
 }
 

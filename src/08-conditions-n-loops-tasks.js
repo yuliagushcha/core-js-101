@@ -1,3 +1,5 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-plusplus */
 /* *************************************************************************************************
  *                                                                                                *
  * Plese read the following tutorial before implementing tasks:                                   *
@@ -31,10 +33,10 @@ function getFizzBuzz(num) {
   if (num % 3 === 0) {
     if (num % 5 === 0) {
       return 'FizzBuzz';
-    } else { return 'Fizz'; }
-  } else if (num % 5 === 0) {
+    } return 'Fizz';
+  } if (num % 5 === 0) {
     return 'Buzz';
-  } else { return num; }
+  } return num;
 }
 
 
@@ -100,7 +102,7 @@ function getSumBetweenNumbers(n1, n2) {
  *   10,10,10 =>  true
  */
 function isTriangle(a, b, c) {
-  if (a + b <= c || a + c <= b || b + c <= a) { return false; } else { return true; }
+  if (a + b <= c || a + c <= b || b + c <= a) { return false; } return true;
 }
 
 
@@ -317,7 +319,7 @@ function getDigitalRoot(num) {
       newSum += Number(newStr[i]);
     }
     return newSum;
-  } else { return sum; }
+  } return sum;
 }
 
 

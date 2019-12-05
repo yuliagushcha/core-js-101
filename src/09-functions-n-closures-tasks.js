@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 /* *********************************************************************************************
  *                                                                                             *
  * Plese read the following tutorial before implementing tasks:                                *
@@ -104,6 +105,7 @@ function memoize(func) {
  */
 function retry(func, attempts) {
   const error = [];
+  // eslint-disable-next-line consistent-return
   return () => {
     for (let i = 0; i < attempts; i++) {
       try {

@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-properties */
 /* *******************************************************************************************
  *                                                                                           *
  * Plese read the following tutorial before implementing tasks:                              *
@@ -71,6 +72,7 @@ function getAverage(value1, value2) {
  *   (-5,0) (10,-10) => 18.027756377319946
  */
 function getDistanceBetweenPoints(x1, y1, x2, y2) {
+  // eslint-disable-next-line no-restricted-properties
   return Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
 }
 
@@ -229,9 +231,8 @@ function isPrime(n) {
 function toNumber(value, def) {
   if (Number(value)) {
     return Number(value);
-  } else {
-    return def;
   }
+  return def;
 }
 
 module.exports = {
